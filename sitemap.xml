@@ -4,7 +4,16 @@
   <url>
     <loc>https://yasing.top/2025/06/17/safe-sound/</loc>
     
-    <lastmod>2025-06-17</lastmod>
+    <lastmod>2025-06-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yasing.top/2025/06/18/hexo-cloudflare/</loc>
+    
+    <lastmod>2025-06-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -35,10 +44,52 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://yasing.top/tags/hexo/</loc>
+    <lastmod>2025-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yasing.top/tags/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2025-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yasing.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2025-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yasing.top/tags/Cloudflare/</loc>
+    <lastmod>2025-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yasing.top/tags/GitHub/</loc>
+    <lastmod>2025-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
     <loc>https://yasing.top/categories/%E5%90%89%E4%BB%96%E8%B0%B1/</loc>
+    <lastmod>2025-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yasing.top/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2025-06-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
