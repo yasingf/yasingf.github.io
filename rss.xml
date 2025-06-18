@@ -1,84 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Yasing&#39;s Blog</title>
   
   
+  <link href="https://yasing.top/rss.xml" rel="self"/>
+  
+  <link href="https://yasing.top/"/>
+  <updated>2025-06-18T13:11:20.013Z</updated>
+  <id>https://yasing.top/</id>
+  
+  <author>
+    <name>Yasing</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
     <title>年度观影清单(持续更新)</title>
-    <link href="/posts/a229cac3.html"/>
-    <url>/posts/a229cac3.html</url>
+    <link href="https://yasing.top/posts/a229cac3.html"/>
+    <id>https://yasing.top/posts/a229cac3.html</id>
+    <published>2025-06-18T11:35:56.000Z</published>
+    <updated>2025-06-18T13:11:20.013Z</updated>
     
     <content type="html"><![CDATA[<p>该列表整理了一些个人完整看完且觉得还不错的影视作品，欢迎讨论</p><span id="more"></span><h1 id="电影"><a href="#电影" class="headerlink" title="电影"></a>电影</h1><div id="movies"></div><h1 id="电视剧"><a href="#电视剧" class="headerlink" title="电视剧"></a>电视剧</h1><div id="series"></div><script src="/js/movie-render.js"></script><style>.movie-card {  display: flex;  flex-direction: row;  margin-bottom: 1.5rem;  padding: 1rem;  border: 1px solid #eee;  border-radius: 8px;  box-shadow: 0 2px 8px rgba(0,0,0,0.05);  background: #fff;  gap: 1rem;}.movie-card img {  width: 100px;  height: 140px;  border-radius: 4px;  object-fit: cover;}.movie-card .info {  flex: 1;}.movie-card .info h3 {  margin: 0 0 0.5rem;  font-size: 1.2rem;}.movie-card .info .year {  color: #888;  font-size: 0.9rem;}.movie-card .info .comment {  margin-top: 0.5rem;  font-style: italic;  color: #555;}</style>]]></content>
     
     
+    <summary type="html">&lt;p&gt;该列表整理了一些个人完整看完且觉得还不错的影视作品，欢迎讨论&lt;/p&gt;</summary>
     
-    <tags>
-      
-      <tag>电影，电视剧</tag>
-      
-    </tags>
+    
+    
+    
+    <category term="电影，电视剧" scheme="https://yasing.top/tags/%E7%94%B5%E5%BD%B1%EF%BC%8C%E7%94%B5%E8%A7%86%E5%89%A7/"/>
     
   </entry>
   
-  
-  
   <entry>
     <title>使用 Cloudflare + GitHub + Hexo 搭建高效免费的个人博客</title>
-    <link href="/posts/ca5a7978.html"/>
-    <url>/posts/ca5a7978.html</url>
+    <link href="https://yasing.top/posts/ca5a7978.html"/>
+    <id>https://yasing.top/posts/ca5a7978.html</id>
+    <published>2025-06-18T06:10:00.000Z</published>
+    <updated>2025-06-18T09:20:45.236Z</updated>
     
     <content type="html"><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>在日常工作和学习中，我们常常会遇到各种问题，并在网上找到解决方案。然而，时过境迁，当类似问题再次出现时，我们可能早已忘记当初是如何解决的，不得不再度花费大量时间精力重复搜索。如果能将这些宝贵的经验记录下来，岂不事半功倍？</p><p>不仅如此，个人的所思所感、心得体会，同样值得记录与分享。博客，正是这样一个理想的载体。</p><p>也许有人会问：市面上已有众多成熟的博客平台，为何还要自建？诚然，国内平台如 CSDN（其商业策略常被诟病）、博客园（发展略显停滞）等存在各自的局限。相比之下，自建博客的优势显而易见：</p><ol><li><strong>高度自由定制</strong>：完全掌控页面设计、布局与功能。</li><li><strong>丰富的插件生态</strong>：借助 Hexo 庞大的插件库，轻松扩展所需功能。</li><li><strong>极致的性价比</strong>：依托 Cloudflare 和 GitHub Pages 的免费服务，搭建成本几乎仅为<strong>域名费用</strong>。<br>因此，利用 Hexo 搭建个人博客，不仅实用，而且非常经济。</li></ol><h1 id="所需工具与环境"><a href="#所需工具与环境" class="headerlink" title="所需工具与环境"></a>所需工具与环境</h1><ul><li><strong>操作系统</strong>：Linux (推荐) 或 Windows (配置相对复杂，建议使用 Windows Subsystem for Linux - WSL)。</li><li><strong>代码托管与发布</strong>：GitHub 账户。</li><li><strong>CDN、DNS 与 HTTPS</strong>：Cloudflare 账户。</li><li><strong>域名</strong>：用于访问你的博客 (推荐在 Namesilo 等平台注册，并可无缝托管至 Cloudflare)。</li><li><strong>运行环境</strong>：Node.js (推荐安装lts版本)。</li></ul><h1 id="Node-js安装"><a href="#Node-js安装" class="headerlink" title="Node.js安装"></a>Node.js安装</h1><p>推荐安装lts版本，访问[Nodejs官网](<a href="https://nodejs.org/zh-cn/download">Node.js — Download Node.js®</a>),选择合适的平台以及安装方式，这里以Linux平台下为例，选择Lts版本，for选择linux，using选择nvm，with选择npm，接着官网会给出安装命令</p><p><img src="https://cdn.jsdelivr.net/gh/yasingf/blog_cdn/img/image-20250618114724160.png"></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># Download and install nvm:</span><br>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash<br><br><span class="hljs-comment"># in lieu of restarting the shell</span><br>\. <span class="hljs-string">&quot;<span class="hljs-variable">$HOME</span>/.nvm/nvm.sh&quot;</span><br><br><span class="hljs-comment"># Download and install Node.js:</span><br>nvm install 22<br></code></pre></td></tr></table></figure><p>安装完成后重启终端(或新开一个bash)，使用<code>node -v</code>和<code>npm -v</code>来检查是否正确安装。</p><h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><p>受网络因素影响，有可能会卡下载或连接不上，建议使用科学上网，对于npm，如果嫌其太慢，可以使用淘宝的cnpm来进行代替，笔者这里一直采用科学上网，所以采用npm，对于使用cnpm的读者，后续命令请将npm替换为cnpm即可。</p><h1 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h1><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>在完成了Node.js安装之后，安装Hexo就很简单了，使用下列命令即可安装</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">npm install hexo-cli -g<br></code></pre></td></tr></table></figure><p>在终端输入后直接回车便可自动安装，待安装完成后输入<code>hexo -v</code>来验证是否安装成功</p><h2 id="新建博客"><a href="#新建博客" class="headerlink" title="新建博客"></a>新建博客</h2><p>在hexo安装完成后，切换到你希望存放博客文件的目录，使用下列命令来创建一个博客</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo init [name] <span class="hljs-comment"># name为你创建博客文件夹的名称，使用时不要加括号，例如:hexo init blog</span><br></code></pre></td></tr></table></figure><p>成功后会输出下列信息</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">INFO  Cloning hexo-starter https://github.com/hexojs/hexo-starter.git<br>INFO  Install dependencies<br>INFO  Start blogging with Hexo!<br></code></pre></td></tr></table></figure><p>接着进入博客目录，修改配置文件<code>_config.yml</code>,主要修改下列几项</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><code class="hljs yml"><span class="hljs-attr">title:</span> <span class="hljs-comment">#网站标题</span><br><span class="hljs-attr">subtitle:</span> <span class="hljs-comment">#网站副标题</span><br><span class="hljs-attr">author:</span> <span class="hljs-comment">#作者</span><br><span class="hljs-attr">language:</span> <span class="hljs-string">zh-CN</span> <span class="hljs-comment">#语言选项</span><br><span class="hljs-attr">timezone:</span>  <span class="hljs-string">Asia/Shanghai</span> <span class="hljs-comment">#时区，大陆填这个就行</span><br><span class="hljs-attr">url:</span> <span class="hljs-comment">#网站的域名</span><br><span class="hljs-comment"># 如果采用github pages，则为https://username.github.io/,后续会讲</span><br><span class="hljs-comment"># 如果采用CloudFlare，则为购买的域名</span><br><span class="hljs-attr">theme:</span> <span class="hljs-string">landscape</span> <span class="hljs-comment">#主题，可以自己选择自己喜欢的，下载完成后修改为对应的主题名称即可</span><br><span class="hljs-comment">#下面为采用GitHub Pages需要的配置，如采用CloudFlare则不用配置</span><br><span class="hljs-attr">deploy:</span><br>  <span class="hljs-attr">type:</span> <span class="hljs-string">git</span><br>  <span class="hljs-attr">repo:</span> <span class="hljs-string">https://github.com/username/username.github.io.git</span> <span class="hljs-comment">#username为你的GitHub用户名</span><br>  <span class="hljs-attr">branch:</span> <span class="hljs-string">main</span><br>  <span class="hljs-attr">message:</span> <span class="hljs-string">&#x27;Site updated: &#123;&#123; now(&quot;YYYY-MM-DD HH:mm:ss&quot;) &#125;&#125;&#x27;</span><br></code></pre></td></tr></table></figure><p>接下来就可以生成本地预览了</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo g <span class="hljs-comment">#生成静态文件</span><br>hexo s <span class="hljs-comment">#启用本地预览</span><br></code></pre></td></tr></table></figure><p>接着访问<code>http://localhost:4000/</code>即可预览博客，正常情况下你应该能看到如下界面</p><p><img src="https://cdn.jsdelivr.net/gh/yasingf/blog_cdn/img/image-20250618122137387.png"></p><p>至此，你已经成功搭建了一个博客了，对于主题，这里笔者推荐两个<a href="https://github.com/fluid-dev/hexo-theme-fluid">fluid</a>，<a href="https://github.com/next-theme/hexo-theme-next">next</a>，这两个都是比较新的，对hexo的一些新特性支持较好，更多主题请访问<a href="https://hexo.io/themes/">hexo官网</a>查看。</p><p>以下为hexo常用命令</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo clean <span class="hljs-comment"># 用以清理生成的静态文件</span><br>hexo g     <span class="hljs-comment"># 生成静态文件</span><br>hexo s     <span class="hljs-comment"># 启用本地预览</span><br>hexo d     <span class="hljs-comment"># deploy，将静态文件推送到github仓库</span><br>hexo new post [name] <span class="hljs-comment">#创建一篇名为name的帖子</span><br></code></pre></td></tr></table></figure><h1 id="Github"><a href="#Github" class="headerlink" title="Github"></a>Github</h1><h1 id="ssh配置"><a href="#ssh配置" class="headerlink" title="ssh配置"></a>ssh配置</h1><p>首先使用下列命令生成ssh密钥</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">ssh-keygen -t rsa -C <span class="hljs-string">&quot;xxx@xxx.com&quot;</span> <span class="hljs-comment"># 将 &quot;xxx@xxx.com&quot; 替换为你自己GitHub的邮箱地址</span><br></code></pre></td></tr></table></figure><p>接着获取公钥内容</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">cd</span> ~/.ssh<br><span class="hljs-built_in">cat</span> id_rsa.pub <span class="hljs-comment"># 查看公钥内容，复制</span><br></code></pre></td></tr></table></figure><p>GitHub设置中添加公钥,打开GitHub设置界面，选择SSH and GPG keys –&gt; new SSH key,名称随意,粘贴刚刚复制的密钥</p><p><img src="https://cdn.jsdelivr.net/gh/yasingf/blog_cdn/img/image-20250618125922176.png"></p><p><img src="https://cdn.jsdelivr.net/gh/yasingf/blog_cdn/img/image-20250618125942128.png"></p><p>使用以下命令检测是否配置成功，出现<code>successful</code>字样即为成功</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">ssh -T git@github.com<br></code></pre></td></tr></table></figure><h2 id="新建仓库"><a href="#新建仓库" class="headerlink" title="新建仓库"></a>新建仓库</h2><h3 id="Github-Pages-不稳定"><a href="#Github-Pages-不稳定" class="headerlink" title="Github Pages(不稳定)"></a>Github Pages(不稳定)</h3><p>对于使用GitHub Pages的读者，需要创建一个名为<code>username.github.io</code>的仓库，username为GitHub用户名，在yml文件中配置好deploy后，使用下列命令即可完成博客搭建</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo d<br></code></pre></td></tr></table></figure><p>后续更新只需要使用下列命令即可更新GitHub Pages</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<br></code></pre></td></tr></table></figure><h3 id="CloudFlare-推荐"><a href="#CloudFlare-推荐" class="headerlink" title="CloudFlare(推荐)"></a>CloudFlare(推荐)</h3><p>由于GitHub在国内的访问并不稳定，有概率无法打开网站，因此推荐采用CloudFlare+域名的方式来托管博客，操作如下</p><p>在github上新建一个仓库(名称随意，但仓库权限最好设置为<strong>私有</strong>，以防hexo中一些配置用到ID和Key泄露)</p><p>接着回到博客目录下，使用下列命令来将本地内容push到GitHub</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs bash">git init <span class="hljs-comment">#建立本地仓库</span><br>git remote add origin https://github.com/username/blog.git <span class="hljs-comment">#与GitHub仓库建立连接，将地址更改为你仓库的地址</span><br>git add .<br>git commit -m <span class="hljs-string">&quot;sync&quot;</span><br>git branch -M main<br>git push -u origin main<br></code></pre></td></tr></table></figure><p>至此就成功将博客存储在GitHub，后续更新只需要commit并push即可。</p><h1 id="Cloud-Flare和域名"><a href="#Cloud-Flare和域名" class="headerlink" title="Cloud Flare和域名"></a>Cloud Flare和域名</h1><p>域名购买流程可以参见<a href="https://www.oneyangcrown.top/posts/namesilo-domain-purchase-guide/">NameSilo域名购买与使用全流程 </a></p><p>域名托管详见<a href="https://www.oneyangcrown.top/posts/cloudflare-hosted-domain-cdn-ssl-guide/">Cloudflare托管域名</a>，只需要将域名托管到Cloudflare即可，不需要申请ssl</p><h2 id="Cloud-Flare-Workers"><a href="#Cloud-Flare-Workers" class="headerlink" title="Cloud Flare Workers"></a>Cloud Flare Workers</h2><p>登录<a href="https://dash.cloudflare.com/">cloud flare官网</a>,选择计算(Workers),选择创建-pages，导入现有git存储库</p><p><img src="https://cdn.jsdelivr.net/gh/yasingf/blog_cdn/img/image-20250618135914544.png" alt="image-20250618135914544"></p><p><img src="https://cdn.jsdelivr.net/gh/yasingf/blog_cdn/img/image-20250618140024384.png" alt="image-20250618140024384"></p><p>接下来需要绑定GitHub账号，选择你存储博客的仓库</p><p><img src="https://cdn.jsdelivr.net/gh/yasingf/blog_cdn/img/image-20250618140124734.png" alt="image-20250618140124734"></p><p>构建命令如下</p><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs verilog">npm install -g hexo; hexo clean; hexo <span class="hljs-keyword">generate</span><br></code></pre></td></tr></table></figure><p>构建目录输出<code>/public</code>,保存并部署，即可将博客托管在cloud flare上。</p><p>接着回到主页面，选择我们创建的worker，进入自定义域，将我们托管的域名添加进去，这样我们就可以通过域名进行访问，后续博客的更新只需要更新GitHub仓库，cloudflare会自动拉取并构建。</p>]]></content>
     
     
-    <categories>
       
-      <category>教程</category>
       
-    </categories>
+    <summary type="html">&lt;h1 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h1&gt;&lt;p&gt;在日常工作和学习中，我们常常会遇到各种问题，并在网上找到解决方案。然而，时过境迁，当类似问题再次出现时，我们可能早已忘记当初是如何解决的，不</summary>
+      
     
     
-    <tags>
-      
-      <tag>hexo</tag>
-      
-      <tag>教程</tag>
-      
-      <tag>博客搭建</tag>
-      
-      <tag>Cloudflare</tag>
-      
-      <tag>GitHub</tag>
-      
-    </tags>
+    
+    <category term="教程" scheme="https://yasing.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="hexo" scheme="https://yasing.top/tags/hexo/"/>
+    
+    <category term="教程" scheme="https://yasing.top/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="博客搭建" scheme="https://yasing.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="Cloudflare" scheme="https://yasing.top/tags/Cloudflare/"/>
+    
+    <category term="GitHub" scheme="https://yasing.top/tags/GitHub/"/>
     
   </entry>
   
-  
-  
   <entry>
     <title>Safe and sound - Taylor Swift</title>
-    <link href="/posts/907095da.html"/>
-    <url>/posts/907095da.html</url>
+    <link href="https://yasing.top/posts/907095da.html"/>
+    <id>https://yasing.top/posts/907095da.html</id>
+    <published>2025-06-17T12:27:23.000Z</published>
+    <updated>2025-06-18T09:19:53.628Z</updated>
     
     <content type="html"><![CDATA[<h1 id="歌曲"><a href="#歌曲" class="headerlink" title="歌曲"></a>歌曲</h1><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=3163120&auto=1&height=66"></iframe><p>由于网易云VIP歌曲无法生成外链，所以只能使用其他版本。</p><h1 id="曲子介绍"><a href="#曲子介绍" class="headerlink" title="曲子介绍"></a>曲子介绍</h1><p>该首曲子由泰勒所演唱，是电影饥饿游戏的插曲，难度较为简单。</p><h1 id="吉他谱"><a href="#吉他谱" class="headerlink" title="吉他谱"></a>吉他谱</h1><p>为提高访问速度，本博客采用共用cdn来对曲谱进行了加速，打开该页面后会自行下载pdf(pc端edge浏览器会自动下载)。</p><!-- <div class="row">    <embed src="/pdf/Safe_and_sound.pdf" width="100%" height="550" type="application/pdf"></div> --><p><img src="https://cdn.jsdelivr.net/gh/yasingf/blog_cdn/images/safe-and-sound1.png" alt="曲谱第一页"><br><img src="https://cdn.jsdelivr.net/gh/yasingf/blog_cdn/images/safe-and-sound2.png" alt="曲谱第二页"><br><img src="https://cdn.jsdelivr.net/gh/yasingf/blog_cdn/images/safe-and-sound3.png" alt="曲谱第三页"><br><img src="https://cdn.jsdelivr.net/gh/yasingf/blog_cdn/images/safe-and-sound4.png" alt="曲谱第四页"><br><img src="https://cdn.jsdelivr.net/gh/yasingf/blog_cdn/images/safe-and-sound5.png" alt="曲谱第五页"><br><img src="https://cdn.jsdelivr.net/gh/yasingf/blog_cdn/images/safe-and-sound6.png" alt="曲谱第六页"></p><div class="row">    <embed src="https://cdn.jsdelivr.net/gh/yasingf/blog_cdn/pdf/Safe_and_sound.pdf" width="100%" height="550" type="application/pdf"></div><h1 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h1><p>小白第一次制谱，对于时值还有bpm不太清楚，在gitar pro 8中和原曲对照之后软件自动匹配的bpm，如有错误还请见谅。</p>]]></content>
     
     
-    <categories>
       
-      <category>吉他谱</category>
       
-    </categories>
+    <summary type="html">&lt;h1 id=&quot;歌曲&quot;&gt;&lt;a href=&quot;#歌曲&quot; class=&quot;headerlink&quot; title=&quot;歌曲&quot;&gt;&lt;/a&gt;歌曲&lt;/h1&gt;&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; widt</summary>
+      
     
     
-    <tags>
-      
-      <tag>吉他谱</tag>
-      
-    </tags>
+    
+    <category term="吉他谱" scheme="https://yasing.top/categories/%E5%90%89%E4%BB%96%E8%B0%B1/"/>
+    
+    
+    <category term="吉他谱" scheme="https://yasing.top/tags/%E5%90%89%E4%BB%96%E8%B0%B1/"/>
     
   </entry>
   
-  
-  
-  
-</search>
+</feed>

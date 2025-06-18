@@ -1,3 +1,5 @@
+https://yasing.top/movies.json
+https://yasing.top/posts/a229cac3.html
 https://yasing.top/posts/ca5a7978.html
 https://yasing.top/posts/907095da.html
 https://yasing.top/about/index.html
@@ -8,5 +10,6 @@ https://yasing.top/tags/%E6%95%99%E7%A8%8B/
 https://yasing.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/
 https://yasing.top/tags/Cloudflare/
 https://yasing.top/tags/GitHub/
+https://yasing.top/tags/%E7%94%B5%E5%BD%B1%EF%BC%8C%E7%94%B5%E8%A7%86%E5%89%A7/
 https://yasing.top/categories/%E5%90%89%E4%BB%96%E8%B0%B1/
 https://yasing.top/categories/%E6%95%99%E7%A8%8B/
