@@ -6,7 +6,7 @@
   <link href="https://yasing.top/rss.xml" rel="self"/>
   
   <link href="https://yasing.top/"/>
-  <updated>2025-06-18T13:11:20.013Z</updated>
+  <updated>2025-06-19T04:01:26.758Z</updated>
   <id>https://yasing.top/</id>
   
   <author>
@@ -17,21 +17,50 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>书籍推荐(持续更新)</title>
+    <link href="https://yasing.top/posts/c39c677e.html"/>
+    <id>https://yasing.top/posts/c39c677e.html</id>
+    <published>2025-06-18T13:33:40.000Z</published>
+    <updated>2025-06-19T04:01:26.758Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>现在这个快节奏的时代,我们总是被碎片化的信息所裹挟</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h1&gt;&lt;p&gt;现在这个快节奏的时代,我们总是被碎片化的信息所裹挟&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="推荐" scheme="https://yasing.top/categories/%E6%8E%A8%E8%8D%90/"/>
+    
+    
+    <category term="书籍" scheme="https://yasing.top/tags/%E4%B9%A6%E7%B1%8D/"/>
+    
+  </entry>
+  
+  <entry>
     <title>年度观影清单(持续更新)</title>
     <link href="https://yasing.top/posts/a229cac3.html"/>
     <id>https://yasing.top/posts/a229cac3.html</id>
     <published>2025-06-18T11:35:56.000Z</published>
-    <updated>2025-06-18T13:11:20.013Z</updated>
+    <updated>2025-06-19T03:02:05.370Z</updated>
     
-    <content type="html"><![CDATA[<p>该列表整理了一些个人完整看完且觉得还不错的影视作品，欢迎讨论</p><span id="more"></span><h1 id="电影"><a href="#电影" class="headerlink" title="电影"></a>电影</h1><div id="movies"></div><h1 id="电视剧"><a href="#电视剧" class="headerlink" title="电视剧"></a>电视剧</h1><div id="series"></div><script src="/js/movie-render.js"></script><style>.movie-card {  display: flex;  flex-direction: row;  margin-bottom: 1.5rem;  padding: 1rem;  border: 1px solid #eee;  border-radius: 8px;  box-shadow: 0 2px 8px rgba(0,0,0,0.05);  background: #fff;  gap: 1rem;}.movie-card img {  width: 100px;  height: 140px;  border-radius: 4px;  object-fit: cover;}.movie-card .info {  flex: 1;}.movie-card .info h3 {  margin: 0 0 0.5rem;  font-size: 1.2rem;}.movie-card .info .year {  color: #888;  font-size: 0.9rem;}.movie-card .info .comment {  margin-top: 0.5rem;  font-style: italic;  color: #555;}</style>]]></content>
+    <content type="html"><![CDATA[<p>该列表整理了一些个人完整看完且觉得还不错的影视作品，欢迎讨论</p><span id="more"></span><h1 id="资源推荐"><a href="#资源推荐" class="headerlink" title="资源推荐"></a>资源推荐</h1><ul><li><a href="https://seedhub.cc/">seedhub</a> 提供种子资源，对本地观影爱好者较为友好</li><li><a href="https://www.4kvm.org/">4kvm</a> 笔者一般用来在线看美剧的网站</li></ul><h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><p>有时候网站可能无法裸连，如果打不开推荐使用科学上网来处理</p><h1 id="电影"><a href="#电影" class="headerlink" title="电影"></a>电影</h1><div id="movies"></div><h1 id="电视剧"><a href="#电视剧" class="headerlink" title="电视剧"></a>电视剧</h1><div id="series"></div><script src="/js/movie-render.js"></script><style>.movie-card {  display: flex;  flex-direction: row;  margin-bottom: 1.5rem;  padding: 1rem;  border: 1px solid #eee;  border-radius: 8px;  box-shadow: 0 2px 8px rgba(0,0,0,0.05);  background: #fff;  gap: 1rem;}.movie-card img {  width: 100px;  height: 140px;  border-radius: 4px;  object-fit: cover;}.movie-card .info {  flex: 1;}.movie-card .info h3 {  margin: 0 0 0.5rem;  font-size: 1.2rem;}.movie-card .info .year {  color: #888;  font-size: 0.9rem;}.movie-card .info .comment {  margin-top: 0.5rem;  font-style: italic;  color: #555;}</style>]]></content>
     
     
     <summary type="html">&lt;p&gt;该列表整理了一些个人完整看完且觉得还不错的影视作品，欢迎讨论&lt;/p&gt;</summary>
     
     
     
+    <category term="推荐" scheme="https://yasing.top/categories/%E6%8E%A8%E8%8D%90/"/>
     
-    <category term="电影，电视剧" scheme="https://yasing.top/tags/%E7%94%B5%E5%BD%B1%EF%BC%8C%E7%94%B5%E8%A7%86%E5%89%A7/"/>
+    
+    <category term="电影" scheme="https://yasing.top/tags/%E7%94%B5%E5%BD%B1/"/>
+    
+    <category term="电视剧" scheme="https://yasing.top/tags/%E7%94%B5%E8%A7%86%E5%89%A7/"/>
     
   </entry>
   

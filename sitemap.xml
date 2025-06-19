@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yasing.top/posts/c39c677e.html</loc>
+    
+    <lastmod>2025-06-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yasing.top/movies.json</loc>
     
-    <lastmod>2025-06-18</lastmod>
+    <lastmod>2025-06-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +22,7 @@
   <url>
     <loc>https://yasing.top/posts/a229cac3.html</loc>
     
-    <lastmod>2025-06-18</lastmod>
+    <lastmod>2025-06-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -49,7 +58,7 @@
 
   <url>
     <loc>https://yasing.top/</loc>
-    <lastmod>2025-06-18</lastmod>
+    <lastmod>2025-06-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -57,49 +66,63 @@
   
   <url>
     <loc>https://yasing.top/tags/%E5%90%89%E4%BB%96%E8%B0%B1/</loc>
-    <lastmod>2025-06-18</lastmod>
+    <lastmod>2025-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yasing.top/tags/hexo/</loc>
-    <lastmod>2025-06-18</lastmod>
+    <lastmod>2025-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yasing.top/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2025-06-18</lastmod>
+    <lastmod>2025-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yasing.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2025-06-18</lastmod>
+    <lastmod>2025-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yasing.top/tags/Cloudflare/</loc>
-    <lastmod>2025-06-18</lastmod>
+    <lastmod>2025-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yasing.top/tags/GitHub/</loc>
-    <lastmod>2025-06-18</lastmod>
+    <lastmod>2025-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yasing.top/tags/%E7%94%B5%E5%BD%B1%EF%BC%8C%E7%94%B5%E8%A7%86%E5%89%A7/</loc>
-    <lastmod>2025-06-18</lastmod>
+    <loc>https://yasing.top/tags/%E7%94%B5%E5%BD%B1/</loc>
+    <lastmod>2025-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yasing.top/tags/%E7%94%B5%E8%A7%86%E5%89%A7/</loc>
+    <lastmod>2025-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yasing.top/tags/%E4%B9%A6%E7%B1%8D/</loc>
+    <lastmod>2025-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -108,14 +131,21 @@
   
   <url>
     <loc>https://yasing.top/categories/%E5%90%89%E4%BB%96%E8%B0%B1/</loc>
-    <lastmod>2025-06-18</lastmod>
+    <lastmod>2025-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yasing.top/categories/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2025-06-18</lastmod>
+    <lastmod>2025-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yasing.top/categories/%E6%8E%A8%E8%8D%90/</loc>
+    <lastmod>2025-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

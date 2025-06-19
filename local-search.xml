@@ -4,17 +4,50 @@
   
   
   <entry>
-    <title>年度观影清单(持续更新)</title>
-    <link href="/posts/a229cac3.html"/>
-    <url>/posts/a229cac3.html</url>
+    <title>书籍推荐(持续更新)</title>
+    <link href="/posts/c39c677e.html"/>
+    <url>/posts/c39c677e.html</url>
     
-    <content type="html"><![CDATA[<p>该列表整理了一些个人完整看完且觉得还不错的影视作品，欢迎讨论</p><span id="more"></span><h1 id="电影"><a href="#电影" class="headerlink" title="电影"></a>电影</h1><div id="movies"></div><h1 id="电视剧"><a href="#电视剧" class="headerlink" title="电视剧"></a>电视剧</h1><div id="series"></div><script src="/js/movie-render.js"></script><style>.movie-card {  display: flex;  flex-direction: row;  margin-bottom: 1.5rem;  padding: 1rem;  border: 1px solid #eee;  border-radius: 8px;  box-shadow: 0 2px 8px rgba(0,0,0,0.05);  background: #fff;  gap: 1rem;}.movie-card img {  width: 100px;  height: 140px;  border-radius: 4px;  object-fit: cover;}.movie-card .info {  flex: 1;}.movie-card .info h3 {  margin: 0 0 0.5rem;  font-size: 1.2rem;}.movie-card .info .year {  color: #888;  font-size: 0.9rem;}.movie-card .info .comment {  margin-top: 0.5rem;  font-style: italic;  color: #555;}</style>]]></content>
+    <content type="html"><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>现在这个快节奏的时代,我们总是被碎片化的信息所裹挟</p>]]></content>
     
+    
+    <categories>
+      
+      <category>推荐</category>
+      
+    </categories>
     
     
     <tags>
       
-      <tag>电影，电视剧</tag>
+      <tag>书籍</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>年度观影清单(持续更新)</title>
+    <link href="/posts/a229cac3.html"/>
+    <url>/posts/a229cac3.html</url>
+    
+    <content type="html"><![CDATA[<p>该列表整理了一些个人完整看完且觉得还不错的影视作品，欢迎讨论</p><span id="more"></span><h1 id="资源推荐"><a href="#资源推荐" class="headerlink" title="资源推荐"></a>资源推荐</h1><ul><li><a href="https://seedhub.cc/">seedhub</a> 提供种子资源，对本地观影爱好者较为友好</li><li><a href="https://www.4kvm.org/">4kvm</a> 笔者一般用来在线看美剧的网站</li></ul><h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><p>有时候网站可能无法裸连，如果打不开推荐使用科学上网来处理</p><h1 id="电影"><a href="#电影" class="headerlink" title="电影"></a>电影</h1><div id="movies"></div><h1 id="电视剧"><a href="#电视剧" class="headerlink" title="电视剧"></a>电视剧</h1><div id="series"></div><script src="/js/movie-render.js"></script><style>.movie-card {  display: flex;  flex-direction: row;  margin-bottom: 1.5rem;  padding: 1rem;  border: 1px solid #eee;  border-radius: 8px;  box-shadow: 0 2px 8px rgba(0,0,0,0.05);  background: #fff;  gap: 1rem;}.movie-card img {  width: 100px;  height: 140px;  border-radius: 4px;  object-fit: cover;}.movie-card .info {  flex: 1;}.movie-card .info h3 {  margin: 0 0 0.5rem;  font-size: 1.2rem;}.movie-card .info .year {  color: #888;  font-size: 0.9rem;}.movie-card .info .comment {  margin-top: 0.5rem;  font-style: italic;  color: #555;}</style>]]></content>
+    
+    
+    <categories>
+      
+      <category>推荐</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>电影</tag>
+      
+      <tag>电视剧</tag>
       
     </tags>
     
